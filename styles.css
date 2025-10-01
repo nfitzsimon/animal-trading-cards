@@ -1,1 +1,51 @@
-/* add your CSS here */
+.card {
+  border: 1px solid #0098d4;
+  /* Extra 2 px needed because image has a 1px border */
+  width: 302px;
+  /* The exact offset and blur of the drop shadow in the example is a little difficult to 
+  see, but I gave it my best guess */
+  box-shadow: 5px 5px 1px #0098d482;
+  /* Padding put on the card element, as putting it on the image element 
+  (along with other child elements) would put space between the image and 
+  its border and not match the example */
+  padding: 10px;
+  background-color: #cceaf6;
+  border-radius: 5px;
+}
+
+.name {
+  /* The default margin for h3 felt clunky and wasn't a pixel-perfect match to example */
+  margin: 10px 0px;
+  color: #005b7f;
+}
+
+.information {
+  border: 1px solid #0098d4;
+  padding: 0px 10px;
+  /* The default font size felt too large and didn't seem to be a pixel-perfect match */
+  font-size: 12px;
+  color: #005b7f;
+  background-color: #99d5ed;
+}
+
+.interesting {
+  font-style: italic;
+}
+
+.image {
+  width: 300px;
+  border: 1px solid #0098d4;
+}
+
+.animal_details {
+  /* All ul elements have a default start padding of 40px, so the padding must be unset to match the example */
+  padding: unset;
+}
+
+.animal_item {
+  list-style: none;
+}
+
+.label {
+  font-weight: bold;
+}
